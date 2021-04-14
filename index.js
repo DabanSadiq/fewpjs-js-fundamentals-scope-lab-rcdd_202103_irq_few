@@ -19,5 +19,5 @@ let  two = 2
 
 }
 
-myAnimal(dog);
-yourAnimal(Cat);
+animal =myAnimal(dog);
+animal =yourAnimal(Cat);
