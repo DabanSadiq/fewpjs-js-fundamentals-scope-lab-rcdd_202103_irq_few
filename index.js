@@ -16,7 +16,7 @@ let  two = 2
   return n + two
 
   // Feel free to move things around!
-  
+
 }
 
 myAnimal(dog);
