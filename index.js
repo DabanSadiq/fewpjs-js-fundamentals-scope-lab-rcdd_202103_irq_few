@@ -4,10 +4,11 @@ function myAnimal(animal) {
   return animal
 }
 
-function yourAnimal(animal) {
+function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
+  let animal = 'cat';
   return animal
 }
 
@@ -19,5 +20,5 @@ let  two = 2
 
 }
 
-animal =myAnimal(dog);
-animal =yourAnimal(Cat);
+myAnimal(dog);
+yourAnimal(Cat);
