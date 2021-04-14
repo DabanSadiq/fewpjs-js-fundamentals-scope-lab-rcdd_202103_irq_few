@@ -1,6 +1,7 @@
 let animal = ""
 
-function myAnimal(animal) {
+function myAnimal() {
+  cosnt = "dog"
   return animal
 }
 
@@ -20,5 +21,5 @@ let  two = 2
 
 }
 
-myAnimal(dog);
-yourAnimal(Cat);
+myAnimal();
+yourAnimal();
